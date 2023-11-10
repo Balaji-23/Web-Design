@@ -1,0 +1,20 @@
+a{
+	text-decoration:none;
+	color:white;
+}
+#navigation{
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	padding:20px;
+}
+#navigation a:hover{
+	height:15px;
+	width:70px;
+	padding:5px;
+	text-align:center;
+background-color:pink;	
+}

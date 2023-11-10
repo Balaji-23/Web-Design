@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Job form</title>
+<link href="" rel="icon">
+</head>
+<body>
+<header>
+<h3><center>Job Application Form</h3></center>
+<dl>
+<dt><b>Job Application</dt></b>
+<dd>Please complete the form below to apply for a position with us.</dd>
+</dl>
+</header>
+<form action="login.html" method="post">
+<div>
+<label>First Name</label>
+<input type="text" placeholder="Enter Firstname"  name="frstname" title="Please Enter Firstname" required autofocus>
+<label>Sur Name</label>
+<input type="text" placeholder="Enter Surname" name="scndname" title="Please Enter Surname" required autofocus>
+<label>Last Name</label>
+<input type="text" placeholder="Enter Lastname" name="lstname" title="Please Enter Lastname" required autofocus>
+</div>
+<br>
+<div>
+<label>Current Address</label>
+<input type="address" name="addr" placeholder="Enter address" title="Please Enter Address" required autofocus>
+<label>City</label>
+<select>
+<option>City</option>
+<option>Tirunelveli</option>
+<option>Chennai</option>
+<option>Coimbatore</option>
+<option>Trichy</option>
+<option>Dindugul</option>
+</select>
+<label>State</label>
+<select>
+<option>State</option>
+<option>Tamilnadu</option>
+<option>Kerala</option>
+<option>Karnataka</option>
+<option>Goa</option>
+<option>Rajasthan</option>
+</select>;
+<label>Postal/Zipcode</label>
+<input type="pincode" name="pin" placeholder="Enter Pincode" title="Please Enter Pincode" required autofocus minlength="{1,10}">
+<label>Nationality</label>
+<select>
+<option>Nationality</option>
+<option>Indian</option>
+<option>French</option>
+<option>USA</option>
+<option>Canada</option>
+<option>Australia</option>
+</select>
+</div>
+<br>
+<div>
+<label>Email Address</label>
+<input type="email" name="mail" title="Please Enter Email" placeholder="Enter Mail Address" required autofocus>
+</div>
+<br>
+<div>
+<label>Phone Number</label>
+<input type="text" name="num" title="Please Enter mobileno" placeholder="Enter Mobilenumber" minlength="{1,10}" required autofocus>
+</div>
+<br>
+<div>
+<label>Applying for Job Position</label>
+<select>
+<option>Job Position</option>
+<option>Developer</option>
+<option>Tester</option>
+<option>Business Analyst</option>
+<option>Data Analyst</option>
+<option>Data Engineer</option>
+</select>
+</div>
+<br>
+<div>
+<label>Date</label>
+<select>
+<option>Days</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select>
+<select>
+<option>Month</option>
+<option>January</option>
+<option>February</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+</select>
+<select>
+<option>Year</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+<option>2006</option>
+</select>
+</div>
+<br>
+<div>
+<label>Upload Resume</label>
+<input type="file" name="file" title="upload a file" required>
+</div>
+<br>
+<div>
+<center><button>Submit</button></center>
+</div>
+</form>
+</body>
+</html>

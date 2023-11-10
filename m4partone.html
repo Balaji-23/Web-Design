@@ -1,0 +1,54 @@
+<!---
+<html>
+<head>
+<title>Semantic</title>
+<link href="data:image/png;base64,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" rel="icon">
+<details>
+<summary>This Pc</summary>
+<p>During the 1940s, with the development of new and more powerful computing machines such as the Atanasoff–Berry computer and ENIAC, the term computer came to refer to the machines rather than their human predecessors.[25] As it became clear that computers could be used for more than just mathematical calculations, the field of computer science broadened to study computation in general. In 1945, IBM founded the Watson Scientific Computing Laboratory at Columbia University in New York City. The renovated fraternity house on Manhattan's West Side was IBM's first laboratory devoted to pure science. The lab is the forerunner of IBM's Research Division, which today operates research facilities around the world.[26] Ultimately, the close relationship between IBM and Columbia University was instrumental in the emergence of a new scientific discipline, with Columbia offering one of the first academic-credit courses in computer science in 1946.[27] Computer science began to be established as a distinct academic discipline in the 1950s and early 1960s.</p>
+</details>
+<details>
+<summary>Documents</summary>
+<p>Google Docs allows users to create and edit documents online while collaborating with other users in real time. Edits are tracked by the user making the edit, with a revision history presenting changes.[1] An editor's position is highlighted with an editor-specific color and cursor, and a permissions system regulates what users can do. Updates have introduced features using machine learning, including "Explore", offering search results based on the contents of a document, and "Action items", allowing users to assign tasks to other users.[2</p>
+</details>
+<details>
+<summary>Downloads</summary>
+<p>Downloading generally transfers entire files for local storage and later use, as contrasted with streaming, where the data is used nearly immediately, while the transmission is still in progress, and which may not be stored long-term. Websites that offer streaming media or media displayed in-browser, such as YouTube, increasingly place restrictions on the ability of users to save these materials to their computers after they have been received.
+Downloading is not the same as data transfer; moving or copying data between two storage devices would be data transfer, but receiving data from the Internet or BBS is downloading.</p>
+</details>
+<details>
+<summary>Music</summary>
+<p>For instance, in Hindustani classical music, the performer plays spontaneously while following a partially defined structure and using characteristic motifs. In modal jazz the performers may take turns leading and responding, while sharing a changing set of notes. In a free jazz context, there may be no structure whatsoever, with each performer acting at their discretion. Music may be deliberately composed to be unperformable, or agglomerated electronically from many performances. Music is played in public and private areas, highlighted at events such as festivals, rock concerts, and orchestra performance, and heard incidentally as part of a score or soundtrack to a film, TV show, opera, or video game. Musical playback is the primary function of an MP3 player or CD player and a universal feature of radios and smartphones.</p>
+</details>
+</head>
+</html>
+--->
+<html>
+<head>
+<title>semantic</title>
+<link href="data:image/png;base64,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" rel="icon">
+<code>
+// Create boolean variables
+bool isProgrammingFun = true;
+bool isFishTasty = false;
+
+// Return boolean values
+printf("%d", isProgrammingFun);   // Returns 1 (true)
+printf("%d", isFishTasty);        // Returns 0 (false)
+</code>
+<address>8/42 middle street tirunelveli</address>
+<summary>Comparing values are useful in programming, because it helps us to find answers and make decisions.
+For example, you can use a comparison operator, such as the greater than (>) operator, to compare two values:</summary>
+<p>Rate amount:<del>3456</del><ins>7000</ins></p>
+<abbr>Atm:Automated teller machine</abbr>
+<p><dfn>
+By nature, laws of Physics are stated facts which have been deduced and derived based on empirical observations.
+</P></dfn>
+<article>Many web sites contain HTML code like to indicate navigation, header, and footer.</article>
+<aside>According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."</aside>
+<section>
+<h1>WWF</h1>
+<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+</head>
+</html>

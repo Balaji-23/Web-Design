@@ -1,0 +1,211 @@
+#headname{
+	height:60px;
+	background-color:brown;
+	color:Orange;
+}
+.search{
+	margin-left:70%;
+	padding:5px;
+}
+#secthead{
+	height:300px;
+	background-color:lightblue;
+	color:white;
+	
+}
+#latest{
+	background-color:black;
+	color:orange;
+	height:40px;
+	padding:5px;
+	
+}
+h3{
+	color:orange;
+}
+
+#secthead p{
+	padding:10px;
+	color:white;
+	text-align:justify;
+}
+#sideformhead{
+	
+	width:250px;
+	height:40px;
+	background-color:black;
+	color:orange;
+}
+#blog{
+	height:40px;
+	width:250px;
+	background-color:black;
+	color:orange;
+}
+#blog1{
+height:150px;
+	width:250px;
+	background-color:green;
+	margin-top:5px;	
+}
+#blog2{
+height:150px;
+	width:250px;
+	background-color:green;
+	margin-top:2px;	
+}
+#blog3{
+height:145px;
+	width:250px;
+	background-color:green;
+	margin-top:5px;	
+}
+#vidyahead{
+	font-family:verdana;
+}
+#spbhead{
+	font-family:verdana;
+}
+#karthickhead{
+	font-family:verdana;
+}
+#vidyacontent{
+	font-family:verdana;
+	color:black;
+	font-size:10px;
+	text-align:justify;
+}
+#spbcontent{
+	font-family:verdana;
+	color:black;
+	font-size:10px;
+	text-align:justify;
+}
+#karthickcontent{
+	font-family:verdana;
+	color:black;
+	font-size:10px;
+	text-align:justify;
+}
+#navi{
+	background-color:brown;
+	margin-top:2px;
+	color:white;
+	height:40px;
+	padding-top:10px;
+	
+}
+#navi a{
+	
+	padding:65px;
+	text-decoration:none;
+	color:white;
+}
+#leftcontent{
+	float:left;
+	background-color:yellow;
+	height:700px;
+	width:300px;
+}
+#submainheadpartone{
+	margin-top:50px;
+	margin-left:20px;
+	float:left;
+	height:200px;
+	width:20%;
+	background-color:lightgreen;
+}
+
+#submainheadparttwo{
+	margin-top:50px;
+	margin-left:60px;
+	float:left;
+	height:200px;
+	width:20%;
+	background-color:lightgreen;
+}
+#submainheadpartthree{
+	margin-top:50px;
+	margin-right:20px;
+	float:right;
+	height:200px;
+	width:20%;
+	background-color:lightgreen;
+}
+#maincontent{
+	background-color:red;
+	height:400px;
+	width:100%;
+}
+#leftmaincontent{
+	float:left;
+	background-color:orange;
+	height:300px;
+	width:400px;
+}
+#rightmaincontent{
+	float:right;
+	background-color:green;
+	height:300px;
+	width:400px;
+}
+#sectionleft{
+	margin:10px;
+	width:380px;
+	height:100px;
+	background-color:pink;
+}
+#sidehead{
+	margin:10px;
+	width:380px;
+	height:40px;
+	background-color:black;
+	color:orange;
+}
+#sectionright{
+	margin:10px;
+	width:380px;
+	height:100px;
+	background-color:pink;
+}
+#righttop{
+	margin:10px;
+	width:380px;
+	height:40px;
+	background-color:black;
+	color:orange;
+}
+#rightdown{
+	margin:10px;
+	width:380px;
+	height:210px;
+	background-color: purple;
+}
+td{
+	padding:10px;
+	color:white;
+}
+footer{
+	text-align:center;
+	height:70px;
+	background-color:purple;
+	color:black;
+	font-family:verdana;
+	margin-top:310px;
+	padding:5px;
+}
+figcaption{
+	text-align:center;
+	font-family:verdana;
+	
+}
+#arr{
+	font-family:verdana;
+	font-size:11px;
+	padding:10px;
+}
+#u1{
+	font-family:verdana;
+	font-size:11px;
+	padding:10px;
+}

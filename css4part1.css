@@ -1,0 +1,26 @@
+#tables th{
+	background-color:black;
+	color:white;
+	padding:20px;
+	width:300px;
+}
+#tables td{
+	background-color:lightblue;
+	color:black;
+padding:8px;	
+}
+#tables td:hover{
+	background-color:yellow;
+	color:red;
+}
+*{
+	margin-top:50px;
+	margin-left:70px;
+}
+h1{
+font-family:verdana;
+justify-content:center;
+}
+h1:hover{
+	text-decoration:underline;
+}

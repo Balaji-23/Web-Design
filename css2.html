@@ -1,0 +1,73 @@
+<!--
+<html>
+<head>
+<title>Cascading Stylesheet</title>
+<h1>Changing Paragraph color Using CSS</h1>
+<link href="data:image/png;base64,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" rel="icon">
+</head>
+<style>
+h1{
+font-family:verdana;
+text-align:center;
+}
+</style>
+<body>
+<p style="background-color:grey; color:orange;">Superstitions and social and religious prejudices give rise to such distressing conditions. We must root out these prejudices and ensure a bright future for the girl children by giving them proper education. Moreover, woman’s rights must be established in social and economic fields.</p>
+<p style="background-color:yellow; color:red;">The Dowry system is evil in society. It has reduced the sacred affair of marriage to a business deal. Brides are treated as a marketable commodity. The parents of the brides are often put under inhuman pressure for a handsome dowry. Sometimes they become paupers to get their daughters married. In many cases, young brides are ruthlessly tortured or pushed to suicide.</p>
+<p style="background-color:green;color:blue;">dered as an equal partner to the man. Widespread education and employment and their rights to property can bring about the right remedy. Legal prohibition of dowry is not enough. Strong social disapproval of dowry is the only guarantee against this evil.</p>
+<p style="background-color:red; color:lightblue;">An aim is a goal or objective to achieve in life. In order to succeed in life, one must have a goal. My aim in life is to be a teacher. Teaching is a noble and responsible profession. I have come to know that the ever-increasing misery and distress, are due to the ignorance and illiteracy of the people of our country. So I have decided to spread education among the masses as much as possible within my humble power.</p>
+</body>
+</html>
+--->
+
+<html>
+<head>
+<title>Inline Internal And External CSS</title>
+<link href="data:image/png;base64,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" rel="icon">
+</head>
+<link href="extfile.css" rel="stylesheet">
+<h1 style="color:blue; text-align:left; font-family:Times New Roman;">Internal CSS</h1>
+<body style="background-color:violet;">
+<style>
+p{
+color:red; 
+background-color:black;
+}
+ol{
+background-color:pink;
+}
+h1{
+color:green;
+text-align:center;
+font-family:verdana;
+}
+a{
+background-color:lightblue;
+text-decoration:none;
+}
+body{
+background-color:grey;
+}
+img{
+height:200px;
+width:200px;
+}
+</style>
+<p style="color:pink; background-color:red;">Find attached lab tasks that can be easily practiced on your mobile or on
+a PC. Lab tasks will help you to gain confidence and to reinforce concepts
+because the more you practice the more likely you are to learn them.  You can post your doubts pertaining to this
+lab task on Google classroom.</p>
+<ol style="background-color:yellow;" type="i">
+<li>Hi</li>
+<li>Hello</li>
+<li>Welcome</li>
+</ol>
+<a href="" style="background-color:orange; text-decoration:none;" >Home</a>
+<a href="" style="background-color:orange;">About</a>
+<a href="" style="background-color:orange;">Contact</a>
+<br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjCbzaf5suggE80ysN-OwnUuNM4RBBaaANVRcyRkv5zzCbJ209DO4tpKATVhccJQTbPc&usqp=CAU" alt="Load error" style="height:500px; width:500px;">
+</body>
+</html>
+
+<!--Compare these three most priority is inline and second one is internal and finally the third one is external css-->

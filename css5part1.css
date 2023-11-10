@@ -1,0 +1,60 @@
+.container{
+	margin:50px;
+}
+#mainn{
+	background-color:aqua;
+}
+#logo{
+	background-color:red;
+	height:50px;
+	width:100%;
+	image:url("");
+}
+#navigation a{
+	text-decoration:none;
+	padding:80px;
+	justify-content:space-around;
+
+}
+#navigation{
+	height:50px;
+	width:100%;
+	margin-top:5px;
+	background-color:blue;
+	color:black;
+}
+#banner{
+	height:100px;
+	width:100%;
+	background-color:grey;
+	margin-top:5px;
+}
+
+#bodycontent{
+	background-color:yellow;
+	height:500px;
+	width:100%;
+	margin-top:5px;
+}
+#sidebar{
+	height:500px;
+	width:20%;
+	background-color:orange;
+	float:left;
+}
+#foot{
+	height:50px;
+	width:98%;
+	padding:10px;
+	background-color:lightgreen;
+	color:black;
+	margin-top:5px;
+	text-align:center;
+	font-family:verdana;
+}
+p{
+	text-align:center;
+	margin-left:15px;
+	font-family:verdana;
+	padding:10px;
+}

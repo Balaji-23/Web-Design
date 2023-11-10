@@ -1,0 +1,64 @@
+.contain{
+	margin:40px;
+}
+*{
+	
+}
+#navkey a{
+	text-decoration:none;
+	padding:5px;
+	margin-left:150px;
+	color:black;
+}
+#navkey{
+	background-color:blue;
+	height:50px;
+	padding:5px;
+}
+#head{
+	background-color:purple;
+	height:100px;
+	margin-top:5px;
+}
+#para{
+	height:400px;
+	margin-top:5px;
+}
+#textarea{
+	height:100px;
+	background-color:lightblue;
+	margin-top:5px;
+	font-family:verdana;
+}
+#aside1{
+	float:left;
+	background-color:yellow;
+	height:400px;
+	width:30%;
+}
+#aside2{
+	margin-left:55px;
+	float:left;
+	background-color:green;
+	height:400px;
+	width:30%;
+}
+#aside3{
+	margin-left:55px;
+	float:right;
+	background-color:orange;
+	height:400px;
+	width:30%;
+}
+#foot{
+	margin-top:5px;
+	background-color:blue;
+	height:50px;
+	text-align:center;
+	padding:5px;
+	font-family:verdana;
+}
+p{
+	font-family:verdana;
+	text-align:center;
+}

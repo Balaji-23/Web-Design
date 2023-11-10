@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Login Form</title>
+<h1>Login Form</h1>
+<form action="" method="post">
+<style>
+#male{
+accent-color:blue;
+}
+#female{
+accent-color:pink;
+}
+#trans{
+accent-color:yellow;
+}
+#sub{
+background-color:blue;
+color:white;
+}
+#sub:hover{
+background-color:pink;
+border: 1px solid red;
+}
+</style>
+</head>
+<body>
+<section id="user">
+<label>Username</label>
+<input type="text" name="username" title="Enter username" placeholder="Enter username" required autofocus>
+</section>
+<br>
+<section id="pass">
+<label>Password</label>
+<input type="password" name="password" title="Enter password" placeholder="Enter password" required autofocus>
+</section>
+<section id="rad">
+<input type="radio" name="decision" id="male">
+<label for="#male">Male</label>
+<input type="radio" name="decision" id="female">
+<label for="female">Female</label>
+<input type="radio" name="decision" id="trans">
+<label for="trans">Transgender</label>
+</section>
+<section id="login">
+<input type="submit" id="sub" >
+</body>
+</form>
+</html>
+
+

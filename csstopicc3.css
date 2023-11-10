@@ -1,0 +1,43 @@
+#navi{
+	height:50px;
+	background-color:green;
+	font-family:verdana;
+	text-align:center;
+	padding:5px;
+}
+#sectionfrst{
+	margin-top:5px;
+	float:left;
+	background-color:red;
+	height:200px;
+	width:30%;
+}
+#sectionsecond{
+	margin-top:5px;
+	margin-left:55px;
+	float:left;
+	background-color:orange;
+	height:200px;
+	width:30%;
+}
+#sectionthird{
+	margin-top:5px;
+	margin-left:55px;
+	float:right;
+	background-color:pink;
+	height:200px;
+	width:30%;
+}
+.down{
+	margin-top:210px;
+	background-color:blue;
+	height:50px;
+	text-align:center;
+	padding:5px;
+	font-family:verdana;
+}
+p{
+	font-family:verdana;
+	text-align:center;
+}
+
